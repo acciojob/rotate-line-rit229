@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #f0f0f0; /* Light background color */
+}
+#line {
+    width: 200px; /* Width of the line */
+    height: 2px; /* Height of the line */
+    background-color: #000000; /* Color of the line */
+    position: absolute; /* Absolute positioning */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform-origin: center; /* Set the origin for rotation */
+}
